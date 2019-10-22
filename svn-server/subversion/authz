@@ -1,0 +1,8 @@
+[aliases]
+# joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average
+
+[groups]
+admin = noname,longlong
+
+[/]
+@admin = rw
