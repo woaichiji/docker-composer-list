@@ -1,0 +1,13 @@
+version: "3"
+services:
+  v2ray:
+    image: nginx/alpine
+    container_name: nginx
+    privileged: true
+    restart: always
+    ports:
+      - 443:443
+      - 80:80
+    volumes:
+#      - ./etc/nginx.conf:/etc/nginx/nginx.conf:ro
+#      - ./etc/conf.d:/etc/nginx/conf.d:ro
