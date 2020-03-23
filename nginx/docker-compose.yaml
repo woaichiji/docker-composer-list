@@ -10,4 +10,4 @@ services:
       - 80:80
     volumes:
 #      - ./etc/nginx.conf:/etc/nginx/nginx.conf:ro
-#      - ./etc/conf.d:/etc/nginx/conf.d:ro
+      - ./etc/conf.d:/etc/nginx/conf.d:ro
