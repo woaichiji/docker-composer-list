@@ -1,13 +1,11 @@
 version: "3"
 services:
-  svn:
-    image: elleflorio/svn-server
-    container_name: svn-server
+  v2ray:
+    image: jrohy/v2ray
+    container_name: v2ray
+    privileged: true
     restart: always
     ports:
-      - '18080:80'
-      - '3690:3690'
+      - 443:443
     volumes:
-      - /Users/yifei/docker-composer-list/svn-server/repos:/home/svn
-      - /Users/yifei/docker-composer-list/svn-server/subversion:/etc/subversion
-      - /Users/yifei/docker-composer-list/svn-server/apache2/conf.d/dav_svn.conf:/etc/apache2/conf.d/dav_svn.conf:ro
+      - ./data/config.json:/etc/v2ray/config.json
