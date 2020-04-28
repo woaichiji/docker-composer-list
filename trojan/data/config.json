@@ -1,6 +1,7 @@
 {
   "inbounds": [
     {
+      "listen": "127.0.0.1",
       "port": 12345,
       "protocol": "vmess",
       "settings": {
@@ -10,6 +11,12 @@
             "alterId": 64
           }
         ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ray"
+        }
       }
     }
   ],
