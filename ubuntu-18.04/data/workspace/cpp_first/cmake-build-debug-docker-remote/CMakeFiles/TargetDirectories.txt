@@ -1,0 +1,3 @@
+/home/yifei/workspace/cpp_first/cmake-build-debug-docker-remote/CMakeFiles/rebuild_cache.dir
+/home/yifei/workspace/cpp_first/cmake-build-debug-docker-remote/CMakeFiles/cpp_first.dir
+/home/yifei/workspace/cpp_first/cmake-build-debug-docker-remote/CMakeFiles/edit_cache.dir

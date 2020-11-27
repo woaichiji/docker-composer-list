@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yifei/workspace/cpp_first/Animal.cpp
+Animal.h
+/home/yifei/workspace/cpp_first/Animal.h
+
+/home/yifei/workspace/cpp_first/Animal.h
+string
+-
+iostream
+-
+
+/home/yifei/workspace/cpp_first/main.cpp
+iostream
+-
+Animal.h
+/home/yifei/workspace/cpp_first/Animal.h
+

@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  centos7:
+    image: centos:centos7.9.2009
+    container_name: 'centos7'
+    ports:
+    - "5900:5900"
+    - "5901:5901"
+    command: ["/usr/sbin/init"]
+    privileged: true
+    volumes:
+        - ./data:/root

@@ -1,0 +1,35 @@
+[ 1606223288.232281]: IMSettings-Daemon[63600]: INFO: Starting imsettings-daemon...
+[ 1606223288.239152]: IMSettings-Daemon[63600]: INFO:   [HOME=/root/.config/imsettings]
+[ 1606223288.241188]: IMSettings-Daemon[63600]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1606223288.243642]: IMSettings-Daemon[63600]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1606223288.245863]: IMSettings-Daemon[63600]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1606223288.247753]: IMSettings-Daemon[63600]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: N/A
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: no
+Is Qt supported: no
+DESKTOP: unknown
+GUESS_DESKTOP: 
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-89E2Menq3q,guid=78ca521d87326cf988c136e85fbd05b7
+GTK_IM_MODULE: 
+QT_IM_MODULE: 
+XMODIFIERS: 
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+
+[ 1606223291.875754]: IMSettings-Daemon[63600]: WARNING **: Child process exited with code 1
+[ 1606223292.295267]: IMSettings-Daemon[63600]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+
+[ 1606223292.592658]: IMSettings-Daemon[63600]: WARNING **: Child process exited with code 1
+[ 1606223292.598824]: IMSettings-Daemon[63600]: INFO:   no need to invoke any auxiliary process for none
+[ 1606223292.608098]: IMSettings-Daemon[63600]: INFO:   no need to invoke any main process for none
+[ 1606223292.638783]: IMSettings-GSettings backend[63600]: INFO: Setting up gtk-im-context-simple:xim as gtk+ immodule
